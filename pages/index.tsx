@@ -46,7 +46,7 @@ const Home: NextPage = () => {
                       src={src}
                       layout="responsive"
                       objectFit="cover"
-                      width={725}
+                      width={700}
                       height={500}
                       alt="メインイメージ画像"
                     />
