@@ -28,7 +28,20 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <div className={styles.wrap}>
-          <div className={styles.content}>
+        <div className={styles.side}>
+          <div className={styles.sidewrap}>
+            <div>
+              <h1 className = {styles.sidetitle}>Nary</h1>
+            </div>
+            <div>
+              <p className = {styles.sidecontent}><Link href="./website"><a>Website</a></Link></p>
+            </div>
+            <div>
+              <p className = {styles.sidecontent}><Link href="./picture"><a>Picture</a></Link></p>
+            </div>
+          </div>
+        </div>
+        <div className={styles.content}>
           <Swiper
               slidesPerView={"auto"} //一度に表示するスライドの数
               pagination={{
@@ -37,7 +50,7 @@ const Home: NextPage = () => {
               autoplay={{
                 delay: 3500,
                 disableOnInteraction: false,
-              }} 
+              }}
               loop={true}>
               {images.map((src: string, index: number) => {
                 return (
@@ -54,14 +67,15 @@ const Home: NextPage = () => {
                 )
               })}
             </Swiper>
-          </div>
-          <div className={styles.side}>
-            <ul>
-              <li className = {styles.listtitle}>Nary</li>
-              <li className = {styles.listcontent}><Link href="./website"><a>Website</a></Link></li>
-              <li className = {styles.listcontent}><Link href="./picture"><a>Picture</a></Link></li>
-            </ul>
-          </div>
+            <div className={styles.mobileonly}>
+              <div>
+                <p className = {styles.sidecontent}><Link href="./website"><a>Website</a></Link></p>
+              </div>
+              <div>
+                <p className = {styles.sidecontent}><Link href="./picture"><a>Picture</a></Link></p>
+              </div>
+            </div>
+        </div>
         </div>
       </main>
     </div>
