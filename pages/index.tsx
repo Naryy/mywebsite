@@ -35,10 +35,9 @@ const Home: NextPage = () => {
                 clickable: true,
               }} //　何枚目のスライドかを示すアイコン、スライドの下の方にある
               autoplay={{
-                delay: 2500,
+                delay: 3500,
                 disableOnInteraction: false,
               }} 
-              
               loop={true}>
               {images.map((src: string, index: number) => {
                 return (
@@ -58,8 +57,8 @@ const Home: NextPage = () => {
           <div className={styles.side}>
             <ul>
               <li className = {styles.listtitle}>Nary</li>
-              <li><Link href="./website"><a>Website</a></Link></li>
-              <li><Link href="./picture"><a>Picture</a></Link></li>
+              <li className = {styles.listcontent}><Link href="./website"><a>Website</a></Link></li>
+              <li className = {styles.listcontent}><Link href="./picture"><a>Picture</a></Link></li>
             </ul>
           </div>
         </div>
