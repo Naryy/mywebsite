@@ -71,12 +71,16 @@
       align-items: center;
       justify-content: space-around;
       background-color: #e0e0e0;
+      width: 100%;
+      height: 100%;
+      box-shadow:  -7px 7px 23px #969696,
+    7px -7px 23px #ffffff;
     }
     .sidetitle{
-      font-size: 24px;
+      font-size: 20px;
       margin: 0;
       font-weight: 700;
-      margin-right: 100px;
+      margin-right: 40px;
     }
     .sidecontent{
       margin:0;
@@ -86,7 +90,7 @@
   .content{
     float: none;
     margin-bottom: 0;
-    margin-top:50px;
+    margin-top: 45px;
     width: 100%;
     height: 90vh;
     img{
