@@ -45,9 +45,10 @@ const Home: NextPage = () => {
                     <Image
                       src={src}
                       layout="responsive"
-                      width={640}
-                      height={400}
-                      alt="main-image"
+                      objectFit="cover"
+                      width={725}
+                      height={500}
+                      alt="メインイメージ画像"
                     />
                   </SwiperSlide>
                 )

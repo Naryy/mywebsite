@@ -4,12 +4,20 @@
   height: 100vh;
 }
 .content{
-  width: 78%;
+  width: 72%;
   height: 100vh;
   float: right;
+  position: static !important;
+  img{
+    width: 100% !important;
+    height: 100vh !important;
+  }
+}
+.swiper{
+  height: 100vh;
 }
 .side{
-  width: 22%;
+  width: 23%;
   height: 100vh;
   float: right;
   border-right: solid #252525;
