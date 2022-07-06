@@ -3,13 +3,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.scss'
-import pic4 from '/public/pic4.jpg'
+/*import pic4 from '/public/pic4.jpg'
 import pic6 from '/public/pic6.jpg'
 import pic7 from '/public/pic7.jpg'
-import pic1 from '/public/pic1.jpg'
+import pic1 from '/public/pic1.jpg'*/
 import pic2 from '/public/pic2.jpg'
 import pic3 from '/public/pic3.jpg'
-import pic5 from '/public/pic5.jpg'
+//import pic5 from '/public/pic5.jpg'
 import pic8 from '/public/pic8.jpg'
 import pic9 from '/public/pic9.jpg'
 import pic10 from '/public/pic10.jpg'
@@ -50,7 +50,7 @@ const picture : NextPage = () => {
 
         <div className={styles.piccont}>
           <div className={styles.picwrap}>
-            <Image src={pic1} alt="aa" objectFit="contain" className={styles.img}/>
+            {/* <Image src={pic1} alt="aa" objectFit="contain" className={styles.img}/> */}
             <div className={styles.imgtitle}>
               <p className={styles.imgtitle}>pic1</p>
             </div>
@@ -63,7 +63,7 @@ const picture : NextPage = () => {
             <Image src={pic3} alt="aa" objectFit="contain" className={styles.img}/>
             <p>pic1</p>
           </div>
-          <div className={styles.picwrap}>
+          {/* <div className={styles.picwrap}>
             <Image src={pic4} alt="aa" objectFit="contain" className={styles.img}/>
             <p>pic1</p>
           </div>
@@ -78,7 +78,7 @@ const picture : NextPage = () => {
           <div className={styles.picwrap}>
             <Image src={pic7} alt="aa"   objectFit="contain" className={styles.img}/>
             <p>pic1</p>
-          </div>
+          </div> */}
           <div className={styles.picwrap}>
             <Image src={pic8} alt="aa"   objectFit="contain" className={styles.img}/>
             <p>pic1</p>
