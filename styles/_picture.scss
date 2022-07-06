@@ -1,0 +1,45 @@
+.picturePage{
+    width: 70%;
+    margin: 0 auto;
+    .styles.piccont{
+        display: flex !important;
+        justify-content: space-around !important;
+        width: 100% !important;
+    }
+    .picwrap{
+        width: 90% !important;
+    }
+    .picside{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        height: 40px;
+        float: none;
+        border: none;
+        margin-bottom: 100px;
+        background-color: #e0e0e0;
+        box-shadow:  -7px 7px 23px #969696,
+        7px -7px 23px #ffffff;
+        margin: 0 auto;
+        .picsidewrap{
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          background-color: #e0e0e0;
+          width: 100%;
+          height: 100%;
+          box-shadow:  -7px 7px 23px #969696,
+          7px -7px 23px #ffffff;
+        }
+        .picsidetitle{
+          font-size: 20px;
+          margin: 0;
+          font-weight: 700;
+          margin-right: 40px;
+        }
+        .picsidecontent{
+          margin:0;
+          font-size: 12px;
+        }
+      }
+}
