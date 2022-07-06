@@ -9,13 +9,13 @@ import SwiperCore, {Pagination, Navigation,Autoplay} from 'swiper'
 SwiperCore.use([Pagination, Navigation, Autoplay])
 
 const images = [
-  '/pic4.JPG',
-  '/pic6.JPG',
-  '/pic7.JPG',
-  '/pic1.JPG',
+  '/pic4.jpg',
+  '/pic6.jpg',
+  '/pic7.jpg',
+  '/pic1.jpg',
   '/pic2.jpg',
   '/pic3.jpg',
-  '/pic5.JPG',
+  '/pic5.jpg',
 ]
 
 const Home: NextPage = () => {
